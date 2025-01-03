@@ -27,7 +27,7 @@ Create the necessary directory and download the `docker-compose.yml` file:
 ```bash
 mkdir -p /opt/yousef/holderbot/data
 curl -o /opt/yousef/holderbot/docker-compose.yml https://raw.githubusercontent.com/hayousef68/holdyou/master/docker-compose.yml
-cd /opt/erfjab/holderbot
+cd /opt/yousef/holderbot
 ```
 
 ### 2.2: Download and Configure `.env`
