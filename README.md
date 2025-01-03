@@ -25,8 +25,8 @@ curl -fsSL https://get.docker.com | sh
 Create the necessary directory and download the `docker-compose.yml` file:
 
 ```bash
-mkdir -p /opt/erfjab/holderbot/data
-curl -o /opt/erfjab/holderbot/docker-compose.yml https://raw.githubusercontent.com/erfjab/holderbot/master/docker-compose.yml
+mkdir -p /opt/yousef/holderbot/data
+curl -o /opt/yousef/holderbot/docker-compose.yml https://raw.githubusercontent.com/hayousef68/holdyou/master/docker-compose.yml
 cd /opt/erfjab/holderbot
 ```
 
@@ -35,7 +35,7 @@ cd /opt/erfjab/holderbot
 Download the example environment file:
 
 ```bash
-curl -o .env https://raw.githubusercontent.com/erfjab/holderbot/master/.env.example
+curl -o .env https://raw.githubusercontent.com/hayousef68/holdyou/master/.env.example
 ```
 
 Edit the `.env` file to add your **Telegram Bot Token** and **API keys**:
@@ -114,10 +114,3 @@ docker compose logs -f
 
 ---
 
-## Contact & Support
-
-- Telegram Channel: [@ErfJabs](https://t.me/ErfJabs)
-
-Feel free to ⭐ the project to show your support!
-
-[![Stargazers over time](https://starchart.cc/erfjab/holderbot.svg?variant=adaptive)](https://starchart.cc/erfjab/holderbot)
