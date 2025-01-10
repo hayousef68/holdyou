@@ -1,6 +1,6 @@
 services:
   holderbot:
-    image: holdyou:latest
+    image: erfjab/holderbot:v0.2.6
     restart: always
     env_file:
       - .env
