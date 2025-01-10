@@ -1,6 +1,6 @@
 services:
   holderbot:
-    image: erfjab/holderbot:53c5b42c8d2b9087e7e96987cbe82033382cb3c6
+    image: hayousef/holderbot:v1
     restart: always
     env_file:
       - .env
