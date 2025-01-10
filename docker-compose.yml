@@ -1,6 +1,6 @@
 services:
   holderbot:
-    image: hayousef68/holdyou:latest
+    image: holdyou:latest
     restart: always
     env_file:
       - .env
